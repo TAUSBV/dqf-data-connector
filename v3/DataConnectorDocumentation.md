@@ -65,7 +65,7 @@ You will need the following credentials to identify your requests:
 * Encryption key
 * initVector
 
-Every request must contain the header parameter `apiKey`, in the format of a Universally Unique Identifier (UUID), which will be provided by TAUS. The apiKey is application specific and used to identify the client that sends the requests. TAUS provides apiKeys that are specific for each of its services. The apiKey for the Daata Connector cannot be used for requests at DQF-API, and vice versa. Every integrator will have one apiKey.
+Every request must contain the header parameter `apiKey`, in the format of a Universally Unique Identifier (UUID), which will be provided by TAUS. The apiKey is application specific and used to identify the client that sends the requests. TAUS provides apiKeys that are specific for each of its services. The apiKey for the Data Connector cannot be used for requests at DQF-API, and vice versa. Every integrator will have one apiKey.
 
 For secured endpoints, there should also be a header parameter `sessionId`. In order to obtain a sessionId, you must call the POST /v3/login endpoint.
 
