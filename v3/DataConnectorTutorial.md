@@ -19,7 +19,7 @@ As  mentioned in the previous paragraph, we want to visualize the volume of a ce
 
 Let's visit the Swagger specifications on https://data-connector.stag.taus.net to pick the information we need from the API. In the headings 'Productivity' and 'Segment Count' we find the URLs we need for our chart.
 
-The 'Productivity' request will return the time spent on translation. By adding parameters to the URL, we can filter the response on the target languages we want to focus on, and also group by target language. So the URL we will be using for this part of the data will be http://waiter.dev.ta-us.net/v3/productivity/industry?targetLanguage=fr-FR,de-DE,es-ES,nl-NL,da-DK,nb-NO&groupBy=targetlanguage
+The 'Productivity' request will return the time spent on translation. By adding parameters to the URL, we can filter the response on the target languages we want to focus on, and also group by target language. So the URL we will be using for this part of the data will be https://data-connector.stag.taus.net/v3/productivity/industry?targetLanguage=fr-FR,de-DE,es-ES,nl-NL,da-DK,nb-NO&groupBy=targetlanguage
 
 The expected response will be something like this:
 ```
@@ -276,7 +276,7 @@ function fetchNewData() {
             type: "GET",
             headers: headers,
             data: filterGroupingParameters,
-            url: "http://waiter.dev.ta-us.net/v3/productivity/industry",
+            url: "https://data-connector.stag.taus.net/v3/productivity/industry",
             async: false,
             error: function(){
                 console.log('Data be found');
@@ -289,7 +289,7 @@ function fetchNewData() {
             type: "GET",
             headers: headers,
             data: filterGroupingParameters,
-            url: "http://waiter.dev.ta-us.net/v3/sourceCount/industry",
+            url: "https://data-connector.stag.taus.net/v3/sourceCount/industry",
             async: false,
             error: function(){
                 console.log('Data be found');
@@ -364,7 +364,7 @@ If you followed all the steps in this tutorial, you have this file:
                     type: "GET",
                     headers: headers,
                     data: filterGroupingParameters,
-                    url: "http://waiter.dev.ta-us.net/v3/productivity/industry",
+                    url: "https://data-connector.stag.taus.net/v3/productivity/industry",
                     async: false,
                     error: function(){
                         console.log('Data be found');
@@ -377,7 +377,7 @@ If you followed all the steps in this tutorial, you have this file:
                     type: "GET",
                     headers: headers,
                     data: filterGroupingParameters,
-                    url: "http://waiter.dev.ta-us.net/v3/sourceCount/industry",
+                    url: "https://data-connector.stag.taus.net/v3/sourceCount/industry",
                     async: false,
                     error: function(){
                         console.log('Data be found');
