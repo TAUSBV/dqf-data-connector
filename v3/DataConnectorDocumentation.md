@@ -21,6 +21,9 @@ This documentation will explain the core concepts of the DC and give some exampl
 For detailed API specifications, please visit:
 https://data-connector.stag.taus.net
 
+For a step-by-step tutorial, please visit:
+https://github.com/TAUSBV/dqf-data-connector/blob/master/v3/DataConnectorTutorial.md
+
 For any questions related to the usage of the DC API, please contact dqfapi@taus.net
 
 ## Terms of use - TAUS membership
