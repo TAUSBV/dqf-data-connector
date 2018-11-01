@@ -27,7 +27,7 @@ https://github.com/TAUSBV/dqf-data-connector/blob/master/v3/DataConnectorTutoria
 For any questions related to the usage of the DC API, please contact dqfapi@taus.net
 
 ## Terms of use - TAUS membership
-DC API is available to TAUS Business level subscribers or higher.
+DC API is available to all TAUS members.
 
 ## Server Info
 
@@ -37,9 +37,9 @@ API:<br/>
 https://dqf-api.stag.taus.net/ <br/>
 This is the general DQF API on the DQF Staging Server, and is typically used for development of CAT-tool plugins to supply the DQF database with data. This API is not a part of DC, and is explained in more detail here: https://github.com/TAUSBV/dqf-api/blob/dev/v3/README.md
 
-Quality Dashboard:<br/>
+DQF Dashboard:<br/>
 https://qd.stag.taus.net/ <br/>
-This is the TAUS client of DC on the staging server; the Quality Dashboard is the most popular way of interacting with the DQF data.
+This is the TAUS client of DC on the staging server; the DQF Dashboard is the most popular way of interacting with the DQF data.
 
 Data Connector:<br/>
 https://data-connector.stag.taus.net <br/>
@@ -55,7 +55,7 @@ https://taus.net
 API: <br/>
 https://dqf-api.taus.net
 
-Quality Dashboard: <br/>
+DQF Dashboard: <br/>
 https://qd.taus.net
 
 Data Connector: <br/>
