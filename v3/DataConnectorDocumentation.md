@@ -14,7 +14,7 @@
   * [Basic Attributes](#basic-attributes)
     + [Benchmarking](#benchmarking)
 
-This document is intended for anyone who is interested in using the DQF Data Connector (DC)  in order to receive metrics and statistics related to DQF projects tracked through various integrations via the DQF API (https://github.com/TAUSBV/dqf-api/tree/master/v3). DC is a public web API and its responses can be used to create custom dashboards with project reports as well as user, organization and industry statistics. TAUS Quality Dashboard (http://qd.taus.net/) is such a client application, consuming the DC as a service.
+This document is intended for anyone who is interested in using the DQF Data Connector (DC)  in order to receive metrics and statistics related to DQF projects tracked through various integrations via the DQF API (https://github.com/TAUSBV/dqf-api/tree/master/v3). DC is a public web API and its responses can be used to create custom dashboards with project reports as well as user, organization and industry statistics. TAUS DQF Dashboard (http://qd.taus.net/) is such a client application, consuming the DC as a service.
 
 This documentation will explain the core concepts of the DC and give some examples on how to use the service.
 
