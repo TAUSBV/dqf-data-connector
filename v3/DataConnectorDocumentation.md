@@ -324,6 +324,6 @@ Please note that most of the DC’s endpoints return raw metrics and not calcula
 {host}/v3/sourceCount/industry?industry=Construction%2FReal+Estate%2CAerospace%2FAviation&groupBy=targetLanguage,segmentOrigin
 ```
 
-This will produce the chart below in the TAUS Quality Dashboard (test data):
+This will produce the chart below in the TAUS DQF Dashboard (test data):
 ![Screenshot productivity chart with benchmarking](https://github.com/TAUSBV/dqf-waiter/blob/dev/CaptureBMproductivity.PNG?raw=true)
 
